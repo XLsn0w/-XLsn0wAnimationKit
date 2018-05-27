@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		35E6860320BA79D400ACAB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6860220BA79D400ACAB79 /* AppDelegate.m */; };
-		35E6860620BA79D400ACAB79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6860520BA79D400ACAB79 /* ViewController.m */; };
 		35E6860920BA79D400ACAB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E6860720BA79D400ACAB79 /* Main.storyboard */; };
 		35E6860B20BA79D700ACAB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E6860A20BA79D700ACAB79 /* Assets.xcassets */; };
 		35E6860E20BA79D700ACAB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E6860C20BA79D700ACAB79 /* LaunchScreen.storyboard */; };
 		35E6861120BA79D700ACAB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6861020BA79D700ACAB79 /* main.m */; };
 		35E6861B20BA79D700ACAB79 /* XLsn0wAnimationKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6861A20BA79D700ACAB79 /* XLsn0wAnimationKitTests.m */; };
 		35E6862620BA79D700ACAB79 /* XLsn0wAnimationKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6862520BA79D700ACAB79 /* XLsn0wAnimationKitUITests.m */; };
+		35E6863920BA7A9200ACAB79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6863320BA7A9200ACAB79 /* ViewController.m */; };
+		35E6863A20BA7A9200ACAB79 /* YQAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6863620BA7A9200ACAB79 /* YQAnimationLayer.m */; };
+		35E6863B20BA7A9200ACAB79 /* YanhuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6863820BA7A9200ACAB79 /* YanhuaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,6 @@
 		35E685FE20BA79D400ACAB79 /* XLsn0wAnimationKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wAnimationKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E6860120BA79D400ACAB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35E6860220BA79D400ACAB79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35E6860420BA79D400ACAB79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35E6860520BA79D400ACAB79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35E6860820BA79D400ACAB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35E6860A20BA79D700ACAB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E6860D20BA79D700ACAB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		35E6862120BA79D700ACAB79 /* XLsn0wAnimationKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLsn0wAnimationKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E6862520BA79D700ACAB79 /* XLsn0wAnimationKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAnimationKitUITests.m; sourceTree = "<group>"; };
 		35E6862720BA79D700ACAB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E6863320BA7A9200ACAB79 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35E6863420BA7A9200ACAB79 /* YanhuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YanhuaViewController.h; sourceTree = "<group>"; };
+		35E6863520BA7A9200ACAB79 /* YQAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAnimationLayer.h; sourceTree = "<group>"; };
+		35E6863620BA7A9200ACAB79 /* YQAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAnimationLayer.m; sourceTree = "<group>"; };
+		35E6863720BA7A9200ACAB79 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35E6863820BA7A9200ACAB79 /* YanhuaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YanhuaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,12 @@
 			children = (
 				35E6860120BA79D400ACAB79 /* AppDelegate.h */,
 				35E6860220BA79D400ACAB79 /* AppDelegate.m */,
-				35E6860420BA79D400ACAB79 /* ViewController.h */,
-				35E6860520BA79D400ACAB79 /* ViewController.m */,
+				35E6863720BA7A9200ACAB79 /* ViewController.h */,
+				35E6863320BA7A9200ACAB79 /* ViewController.m */,
+				35E6863420BA7A9200ACAB79 /* YanhuaViewController.h */,
+				35E6863820BA7A9200ACAB79 /* YanhuaViewController.m */,
+				35E6863520BA7A9200ACAB79 /* YQAnimationLayer.h */,
+				35E6863620BA7A9200ACAB79 /* YQAnimationLayer.m */,
 				35E6860720BA79D400ACAB79 /* Main.storyboard */,
 				35E6860A20BA79D700ACAB79 /* Assets.xcassets */,
 				35E6860C20BA79D700ACAB79 /* LaunchScreen.storyboard */,
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E6860620BA79D400ACAB79 /* ViewController.m in Sources */,
+				35E6863A20BA7A9200ACAB79 /* YQAnimationLayer.m in Sources */,
+				35E6863B20BA7A9200ACAB79 /* YanhuaViewController.m in Sources */,
+				35E6863920BA7A9200ACAB79 /* ViewController.m in Sources */,
 				35E6861120BA79D700ACAB79 /* main.m in Sources */,
 				35E6860320BA79D400ACAB79 /* AppDelegate.m in Sources */,
 			);
